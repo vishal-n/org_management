@@ -22,7 +22,7 @@ This project implements a **multi-tenant database architecture**:
 
 ## 📋 Prerequisites
 
-- Python 3.8+
+- Python 3.11+
 - PostgreSQL 12+
 - pip (Python package manager)
 
