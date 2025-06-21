@@ -6,7 +6,7 @@ class Settings(BaseSettings):
     # Master Database
     master_db_host: str = "localhost"
     master_db_port: int = 5432
-    master_db_name: str = "master_org_db"
+    master_db_name: str = "testdb"
     master_db_user: str = "postgres"
     master_db_password: str = "postgres"
     

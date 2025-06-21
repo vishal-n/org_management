@@ -7,7 +7,7 @@ from .config import settings
 
 logger = logging.getLogger(__name__)
 
-# Master Database Configuration
+# Database Configuration
 master_engine = create_engine(settings.master_database_url)
 MasterSessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=master_engine)
 Base = declarative_base()
