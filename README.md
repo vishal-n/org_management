@@ -208,7 +208,7 @@ class Settings(BaseSettings):
     master_db_password: str = "postgres"
     
     # JWT
-    secret_key: str = "your-super-secret-key-change-this-in-production"
+    secret_key: str = "your-jwt-secret-key"
     algorithm: str = "HS256"
     access_token_expire_minutes: int = 30
     

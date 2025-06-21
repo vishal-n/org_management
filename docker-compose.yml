@@ -27,7 +27,7 @@ services:
       - MASTER_DB_NAME=master_org_db
       - MASTER_DB_USER=postgres
       - MASTER_DB_PASSWORD=postgres
-      - SECRET_KEY=your-super-secret-key-change-this-in-production
+      - SECRET_KEY=xyz
     depends_on:
       db:
         condition: service_healthy
